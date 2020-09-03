@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="GradientImageGenerator">
+    <output-path>$PROJECT_DIR$/out/artifacts/GradientImageGenerator</output-path>
+    <root id="archive" name="GradientImageGenerator.jar">
+      <element id="module-output" name="source" />
+      <element id="dir-copy" path="$PROJECT_DIR$/jar_root" />
+    </root>
+  </artifact>
+</component>

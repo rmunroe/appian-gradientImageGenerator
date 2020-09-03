@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="GradientImageGenerator" />
+    </artifacts-to-build>
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e33ccb2a-ffc1-440f-a2ab-0a904a0836fa" name="Default Changelist" comment="Version 1.0">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/GradientImageGenerator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib_compile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/source.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradientImageGenerator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jar_root/appian-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jar_root/src/com/appiancorp/solutionsconsulting/plugin/gradient/expressions/LinearGradientImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jar_root/src/com/appiancorp/solutionsconsulting/plugin/gradient/helpers/ContentHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/com/appiancorp/solutionsconsulting/plugin/gradient/LinearGradientImage_en_US.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1ggjxXC2nb44ycO0BfXwcBxW4hW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="extract.method.default.visibility" value="public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15208825" />
+    <property name="project.structure.side.proportion" value="0.2617555" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="com.appiancorp.solutionsconsulting.plugin.gradient.helpers.GradientHelper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.appiancorp.solutionsconsulting.plugin.gradient.expressions" />
+      <recent name="com.appiancorp.solutionsconsulting.plugin.gradient.helpers" />
+      <recent name="com.appiancorp.solutionsconsulting.plugin.gradient.datatypes" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/com/appiancorp/solutionsconsulting/plugin/gradient" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ubuntu-server" type="Remote">
+      <module name="gradientImageGenerator" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="ubuntu-server" />
+      <option name="PORT" value="8787" />
+      <option name="AUTO_RESTART" value="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="8787" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e33ccb2a-ffc1-440f-a2ab-0a904a0836fa" name="Default Changelist" comment="" />
+      <created>1598543377549</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598543377549</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="768" y="313" key="#Project_Structure" timestamp="1599173795039">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="768" y="313" key="#Project_Structure/0.23.2560.1417/2560.413.1440.877@0.23.2560.1417" timestamp="1599173795039" />
+    <state x="744" y="393" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598545777813">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="744" y="393" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1417/2560.413.1440.877@0.23.2560.1417" timestamp="1598545777813" />
+    <state x="1093" y="422" key="#com.intellij.ide.util.MemberChooser" timestamp="1598543742447">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1093" y="422" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1417/2560.413.1440.877@0.23.2560.1417" timestamp="1598543742447" />
+    <state x="1017" y="528" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1598644504021">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1017" y="528" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.2560.1417/2560.413.1440.877@0.23.2560.1417" timestamp="1598644504021" />
+    <state x="1000" y="556" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1598644505652">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1000" y="556" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.23.2560.1417/2560.413.1440.877@0.23.2560.1417" timestamp="1598644505652" />
+    <state x="874" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1598545683152">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="874" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.2560.1417/2560.413.1440.877@0.23.2560.1417" timestamp="1598545683152" />
+    <state x="1018" y="485" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598650569093">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1018" y="485" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.1417/2560.413.1440.877@0.23.2560.1417" timestamp="1598650569093" />
+    <state x="1428" y="435" key="#xdebugger.evaluate" timestamp="1598630303843">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1428" y="435" key="#xdebugger.evaluate/0.23.2560.1417/2560.413.1440.877@0.23.2560.1417" timestamp="1598630303843" />
+    <state width="2518" height="459" key="GridCell.Tab.0.bottom" timestamp="1599075409400">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="459" key="GridCell.Tab.0.bottom/0.23.2560.1417/2560.413.1440.877@0.23.2560.1417" timestamp="1599075409400" />
+    <state width="2518" height="459" key="GridCell.Tab.0.center" timestamp="1599075409399">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="459" key="GridCell.Tab.0.center/0.23.2560.1417/2560.413.1440.877@0.23.2560.1417" timestamp="1599075409399" />
+    <state width="2518" height="459" key="GridCell.Tab.0.left" timestamp="1599075409399">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="459" key="GridCell.Tab.0.left/0.23.2560.1417/2560.413.1440.877@0.23.2560.1417" timestamp="1599075409399" />
+    <state width="2518" height="459" key="GridCell.Tab.0.right" timestamp="1599075409400">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="459" key="GridCell.Tab.0.right/0.23.2560.1417/2560.413.1440.877@0.23.2560.1417" timestamp="1599075409400" />
+    <state width="2518" height="459" key="GridCell.Tab.1.bottom" timestamp="1599075409401">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="459" key="GridCell.Tab.1.bottom/0.23.2560.1417/2560.413.1440.877@0.23.2560.1417" timestamp="1599075409401" />
+    <state width="2518" height="459" key="GridCell.Tab.1.center" timestamp="1599075409401">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="459" key="GridCell.Tab.1.center/0.23.2560.1417/2560.413.1440.877@0.23.2560.1417" timestamp="1599075409401" />
+    <state width="2518" height="459" key="GridCell.Tab.1.left" timestamp="1599075409400">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="459" key="GridCell.Tab.1.left/0.23.2560.1417/2560.413.1440.877@0.23.2560.1417" timestamp="1599075409400" />
+    <state width="2518" height="459" key="GridCell.Tab.1.right" timestamp="1599075409401">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="459" key="GridCell.Tab.1.right/0.23.2560.1417/2560.413.1440.877@0.23.2560.1417" timestamp="1599075409401" />
+    <state x="768" y="313" key="SettingsEditor" timestamp="1599173825023">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="768" y="313" key="SettingsEditor/0.23.2560.1417/2560.413.1440.877@0.23.2560.1417" timestamp="1599173825023" />
+    <state x="1018" y="487" width="906" height="725" key="extract.method.dialog" timestamp="1598644463517">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1018" y="487" width="906" height="725" key="extract.method.dialog/0.23.2560.1417/2560.413.1440.877@0.23.2560.1417" timestamp="1598644463517" />
+    <state x="987" y="457" width="586" height="548" key="find.popup" timestamp="1598555114377">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="987" y="457" width="586" height="548" key="find.popup/0.23.2560.1417/2560.413.1440.877@0.23.2560.1417" timestamp="1598555114377" />
+    <state x="945" y="348" key="search.everywhere.popup" timestamp="1598628031636">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="945" y="348" key="search.everywhere.popup/0.23.2560.1417/2560.413.1440.877@0.23.2560.1417" timestamp="1598628031636" />
+  </component>
+</project>

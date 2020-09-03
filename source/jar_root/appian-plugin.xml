@@ -1,0 +1,13 @@
+<appian-plugin name="Gradient Image Generator" key="com.appiancorp.solutionsconsulting.plugin.gradient">
+
+    <plugin-info>
+        <description>Gradient Image Generator</description>
+        <vendor name="Appian Corporation" url="http://www.appian.com" />
+        <version>1.0.0</version>
+        <application-version min="19.1" />
+    </plugin-info>
+
+    <function key="LinearGradientImage"
+              class="com.appiancorp.solutionsconsulting.plugin.gradient.expressions.LinearGradientImage" />
+
+</appian-plugin>
