@@ -6,6 +6,9 @@
 Gradient Image Generator
 =========================================================
 
+.. image:: images/header.png
+   :alt: Expression example
+
 This plugin provides an Expression Function called ``linearGradientImage()`` for generating simple, linear gradient PNG images based on the colors, distribution ratios, and dimensions you specify.
 
 .. toctree::

@@ -11,8 +11,9 @@ The genesis for this plugin was to provide gradient color backgrounds for a `Bil
 
 Note that this companion application requires the `Color Picker Component <https://community.appian.com/b/appmarket/posts/color-picker-component-plug-in>`_ plugin.
 
-.. image:: images/billboard_example.png
+.. image:: images/billboard_designer_top.png
    :alt: Billboard example
+
 
 Performance
 -----------
@@ -23,12 +24,16 @@ Initial image generation usually takes 100 - 200 milliseconds, and subsequent ca
 
 You may wish to generate the image in a lower environment (e.g. DEV) and copy/move the image into your application as well, however the speed at which the plugin returns existing images is comparable to directly referencing an image using a Constant.
 
+
 Compatibility
 -------------
+
 This plugin and its companion application were built and tested on Appian version 20.2.
+
 
 Installation
 ------------
+
 If installing to a fully-managed Appian Cloud instance, install using the `Plugins <https://docs.appian.com/suite/help/latest/Appian_Administration_Console.html#plug-ins>`_ panel of the `Administration Console <https://docs.appian.com/suite/help/latest/Appian_Administration_Console.html>`_.
 
 .. image:: images/plugins.png

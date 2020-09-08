@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 
 <html>
@@ -5,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Companion Application &#8212; Gradient Image Generator 1.0 documentation</title>
-    <link rel="stylesheet" href="_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
@@ -14,130 +15,204 @@
     <script src="_static/language_data.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="&lt;no title&gt;" href="changelog.html" />
-    <link rel="prev" title="&lt;no title&gt;" href="expression.html" />
-<meta charset='utf-8'>
-<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
-<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
-<meta name="apple-mobile-web-app-capable" content="yes">
-<script type="text/javascript" src="_static/js/jquery-1.11.0.min.js "></script>
-<script type="text/javascript" src="_static/js/jquery-fix.js "></script>
-<script type="text/javascript" src="_static/bootstrap-3.3.7/js/bootstrap.min.js "></script>
-<script type="text/javascript" src="_static/bootstrap-sphinx.js "></script>
+    <link rel="next" title="Changelog" href="changelog.html" />
+    <link rel="prev" title="Expression Function" href="expression.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
 
   </head><body>
+  
 
-  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="index.html">
-          Gradient Image Generator</a>
-        <span class="navbar-text navbar-version pull-left"><b></b></span>
-      </div>
-
-        <div class="collapse navbar-collapse nav-collapse">
-          <ul class="nav navbar-nav">
-            
-            
-              <li class="dropdown globaltoc-container">
-  <a role="button"
-     id="dLabelGlobalToc"
-     data-toggle="dropdown"
-     data-target="#"
-     href="index.html">Site <b class="caret"></b></a>
-  <ul class="dropdown-menu globaltoc"
-      role="menu"
-      aria-labelledby="dLabelGlobalToc"><p class="caption"><span class="caption-text">Contents:</span></p>
-<ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Companion Application</a></li>
-</ul>
-</ul>
-</li>
-              
-                <li class="dropdown">
-  <a role="button"
-     id="dLabelLocalToc"
-     data-toggle="dropdown"
-     data-target="#"
-     href="#">Page <b class="caret"></b></a>
-  <ul class="dropdown-menu localtoc"
-      role="menu"
-      aria-labelledby="dLabelLocalToc"><ul>
-<li><a class="reference internal" href="#">Companion Application</a></li>
-</ul>
-</ul>
-</li>
-              
-            
-            
-              
-                
-  <li>
-    <a href="expression.html" title="Previous Chapter: <no title>"><span class="glyphicon glyphicon-chevron-left visible-sm"></span><span class="hidden-sm hidden-tablet">&laquo; <no title></span>
-    </a>
-  </li>
-  <li>
-    <a href="changelog.html" title="Next Chapter: <no title>"><span class="glyphicon glyphicon-chevron-right visible-sm"></span><span class="hidden-sm hidden-tablet"><no title> &raquo;</span>
-    </a>
-  </li>
-              
-            
-            
-            
-            
-              <li class="hidden-sm">
-<div id="sourcelink">
-  <a href="_sources/application.rst.txt"
-     rel="nofollow">Source</a>
-</div></li>
-            
-          </ul>
-
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
           
-            
-<form class="navbar-form navbar-right" action="search.html" method="get">
- <div class="form-group">
-  <input type="text" name="q" class="form-control" placeholder="Search" />
- </div>
-  <input type="hidden" name="check_keywords" value="yes" />
-  <input type="hidden" name="area" value="default" />
-</form>
-          
-        </div>
-    </div>
-  </div>
 
-<div class="container">
-  <div class="row">
-    <div class="body col-md-12 content" role="main">
-      
+          <div class="body" role="main">
+            
   <div class="section" id="companion-application">
 <h1>Companion Application<a class="headerlink" href="#companion-application" title="Permalink to this headline">¶</a></h1>
+<p>The companion application features 2 Expression Rules and a Site that are of most interest.</p>
+<div class="section" id="expression-rules">
+<h2>Expression Rules<a class="headerlink" href="#expression-rules" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="grad-lineargradientimage">
+<h3><code class="docutils literal notranslate"><span class="pre">GRAD_linearGradientImage()</span></code><a class="headerlink" href="#grad-lineargradientimage" title="Permalink to this headline">¶</a></h3>
+<p>This Expression Rule simply wraps around the <code class="docutils literal notranslate"><span class="pre">linearGradientImage()</span></code> function, accepting the same arguments and passing them to the plugin.</p>
+<p>The reason it exists is that the Appian Interface Designer’s Design Mode will throw an error for any Interface that directly references <code class="docutils literal notranslate"><span class="pre">linearGradientImage()</span></code>. <em>This only occurs in Design Mode</em>, so this rule can be bypassed if you plan to only use Expression Mode in the Interface Designer.</p>
+<p>It is recommended that you use this Expression Rule in any interface referencing the plugin as future enhancements to the plugin and companion application can gracefully handle changes.</p>
+</div>
+<div class="section" id="grad-billboardgradientimage">
+<h3><code class="docutils literal notranslate"><span class="pre">GRAD_billboardGradientImage()</span></code><a class="headerlink" href="#grad-billboardgradientimage" title="Permalink to this headline">¶</a></h3>
+<p>This Expression Rule provides simplified arguments that are suitable for a Billboard Layout component’s <code class="docutils literal notranslate"><span class="pre">backgroundMedia</span></code> value, providing sensible and aesthetically pleasing defaults.</p>
+<p>The gradients produced will always be vertically oriented and will include a 10% top color buffer before beginning the gradient. This looks best when using a Site with a Selected Tab Background Color the same as the <code class="docutils literal notranslate"><span class="pre">hexTopColor</span></code> value, as seen below.</p>
+<img alt="_images/billboard_designer_top.png" src="_images/billboard_designer_top.png" />
+<p><strong>hexTopColor</strong> <em>(Text)</em>: The top color of the gradient</p>
+<p><strong>hexBottomColor</strong> <em>(Text)</em>: The bottom color of the gradient</p>
+<p><strong>billboardHeight</strong> <em>(Text)</em>: The same value set for the Billboard Layout’s height property, e.g. <code class="docutils literal notranslate"><span class="pre">SHORT</span></code> or <code class="docutils literal notranslate"><span class="pre">AUTO</span></code></p>
+<p><strong>customWidth</strong> <em>(Number (Integer))</em>: If <code class="docutils literal notranslate"><span class="pre">billboardHeight</span></code> is set to <code class="docutils literal notranslate"><span class="pre">AUTO</span></code>, this is the width in pixels of the generated image</p>
+<p><strong>customHeight</strong> <em>(Number (Integer))</em>: If <code class="docutils literal notranslate"><span class="pre">billboardHeight</span></code> is set to <code class="docutils literal notranslate"><span class="pre">AUTO</span></code>, this is the height in pixels of the generated image</p>
+<p><strong>targetFolder</strong> <em>(Folder)</em>: An Appian <code class="docutils literal notranslate"><span class="pre">Folder</span></code> where the generated image is to be stored. If left blank, defaults to <code class="docutils literal notranslate"><span class="pre">cons!GRAD_FOLDER_DEFAULT</span></code>.</p>
+</div>
+<div class="section" id="example">
+<h3>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>a!headerContentLayout(
+  header: {
+    a!billboardLayout(
+      backgroundMedia: a!documentImage(
+        document: rule!GRAD_billboardGradientImage(
+          hexTopColor: &quot;#4c3006&quot;,
+          hexBottomColor: &quot;#8f4b24&quot;,
+          billboardHeight: &quot;SHORT&quot;,
+          targetFolder: cons!GRAD_FOLDER_DEFAULT
+        )
+      ),
+      backgroundColor: &quot;#000000&quot;,
+      marginBelow: &quot;NONE&quot;,
+      overlay: a!fullOverlay(
+        contents: {
+          rule!GRAD_Interface_DefaultBillboardOverlayContent(
+            gaugeFillColor: &quot;#e6a84c&quot;
+          )
+        },
+        alignVertical: &quot;MIDDLE&quot;,
+        style: &quot;NONE&quot;
+      )
+    )
+  },
+  contents: {}
+)
+</pre></div>
+</div>
+<p>This would produce the following Billboard:</p>
+<img alt="_images/GRAD_billboardGradientImage_example.png" src="_images/GRAD_billboardGradientImage_example.png" />
+</div>
+</div>
+<div class="section" id="gradient-image-generator-site">
+<h2>Gradient Image Generator Site<a class="headerlink" href="#gradient-image-generator-site" title="Permalink to this headline">¶</a></h2>
+<p>The companion application includes a single Site to give further examples and help design gradients images as well as Billboard backgrounds.</p>
+<div class="section" id="billboard-designer">
+<h3>Billboard Designer<a class="headerlink" href="#billboard-designer" title="Permalink to this headline">¶</a></h3>
+<p>This page of the Site allows you to experiment with Billboard background colors and produces a SAIL Expression snippet that you can copy and paste into your Interfaces.</p>
+<img alt="_images/billboard_designer.png" src="_images/billboard_designer.png" />
+<p>Simply change the values of the Billboard <strong>Height</strong>, <strong>Top Color</strong>, and <strong>Bottom Color</strong> to alter the Billboard’s background.</p>
+</div>
+<div class="section" id="gradient-designer">
+<h3>Gradient Designer<a class="headerlink" href="#gradient-designer" title="Permalink to this headline">¶</a></h3>
+<p>This page of the Site allows you much finer-grained control over gradient image generation.</p>
+<img alt="_images/gradient_designer.png" src="_images/gradient_designer.png" />
+<p>To begin click on a gradient in the Sample Color Palettes, or simply modify the default gradient provided. As you make changes to the Settings and Gradient Colors, the resulting image will appear below, and the SAIL Expression snippet will update, allowing you to copy and paste into your Interfaces.</p>
+<div class="section" id="settings">
+<h4>Settings<a class="headerlink" href="#settings" title="Permalink to this headline">¶</a></h4>
+<p>These values will alter the orientation and size in pixels of the generated image.</p>
+</div>
+<div class="section" id="gradient-colors">
+<h4>Gradient Colors<a class="headerlink" href="#gradient-colors" title="Permalink to this headline">¶</a></h4>
+<p>This is the list of colors, either top to bottom if the orientation is Vertical, or left-to-right if Horizontal.</p>
+<p>To edit a color, click the <strong>pencil icon</strong> next to the color hex code. This will display a color picker allowing you to alter the color. When done, click the checkmark to hide the color picker.</p>
+<a class="reference internal image-reference" href="_images/gradient_designer_edit_color.png"><img alt="_images/gradient_designer_edit_color.png" src="_images/gradient_designer_edit_color.png" style="width: 333.75px; height: 402.0px;" /></a>
+<p>To adjust where the color is positioned in the gradient, select a value from the <strong>Distribution dropdown</strong>. Note that you can only select values that differ from the existing colors, so you may need to alter another color’s to position first.</p>
+<a class="reference internal image-reference" href="_images/gradient_designer_edit_dist.png"><img alt="_images/gradient_designer_edit_dist.png" src="_images/gradient_designer_edit_dist.png" style="width: 333.75px; height: 261.0px;" /></a>
+<p>To remove the color from the gradient, click the <strong>X icon</strong>.</p>
+<p>To add a new color, click the <strong>Add Color</strong> link.</p>
+<p>To reverse the order of the colors in the gradients (but keeping the distribution percentages the same) click the <strong>Reverse Color Order</strong> link.</p>
+</div>
+<div class="section" id="sail-expression">
+<h4>SAIL Expression<a class="headerlink" href="#sail-expression" title="Permalink to this headline">¶</a></h4>
+<p>This section produces a snippet of SAIL that can be pasted anywhere in your application that accepts a <code class="docutils literal notranslate"><span class="pre">Document</span></code>, including <code class="docutils literal notranslate"><span class="pre">a!documentImage()</span></code>.</p>
+</div>
+<div class="section" id="gradient-image-preview">
+<h4>Gradient Image Preview<a class="headerlink" href="#gradient-image-preview" title="Permalink to this headline">¶</a></h4>
+<p>This image is the result of the selected values in the designer. To download the PNG file, simply click on the image.</p>
+</div>
+</div>
+<div class="section" id="clear-cache">
+<h3>Clear Cache<a class="headerlink" href="#clear-cache" title="Permalink to this headline">¶</a></h3>
+<p>This page is the start form for a process that will delete all images in the <strong>Default Image Folder</strong>, which is where the designer UIs store the generated images.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you delete an image created by this application, reloading Interfaces that still reference the plugin (e.g. reloading the Site and designer pages) will regenerate the gradient images.</p>
+</div>
+</div>
+</div>
 </div>
 
 
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Gradient Image Generator</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="expression.html">Expression Function</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Companion Application</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#expression-rules">Expression Rules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#gradient-image-generator-site">Gradient Image Generator Site</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="expression.html" title="previous chapter">Expression Function</a></li>
+      <li>Next: <a href="changelog.html" title="next chapter">Changelog</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
     </div>
-      
-  </div>
 </div>
-<footer class="footer">
-  <div class="container">
-    <p class="pull-right">
-      <a href="#">Back to top</a>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Rob Munroe / Appian Corporation.
       
-    </p>
-    <p>
-        &copy; Copyright 2020, Rob Munroe / Appian Corporation.<br/>
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.2.1.<br/>
-    </p>
-  </div>
-</footer>
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.2.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/application.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
   </body>
 </html>

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 
 <html>
@@ -5,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Expression Function &#8212; Gradient Image Generator 1.0 documentation</title>
-    <link rel="stylesheet" href="_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
@@ -16,129 +17,141 @@
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Companion Application" href="application.html" />
     <link rel="prev" title="Introduction" href="introduction.html" />
-<meta charset='utf-8'>
-<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
-<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
-<meta name="apple-mobile-web-app-capable" content="yes">
-<script type="text/javascript" src="_static/js/jquery-1.11.0.min.js "></script>
-<script type="text/javascript" src="_static/js/jquery-fix.js "></script>
-<script type="text/javascript" src="_static/bootstrap-3.3.7/js/bootstrap.min.js "></script>
-<script type="text/javascript" src="_static/bootstrap-sphinx.js "></script>
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
 
   </head><body>
+  
 
-  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="index.html">
-          Gradient Image Generator</a>
-        <span class="navbar-text navbar-version pull-left"><b></b></span>
-      </div>
-
-        <div class="collapse navbar-collapse nav-collapse">
-          <ul class="nav navbar-nav">
-            
-            
-              <li class="dropdown globaltoc-container">
-  <a role="button"
-     id="dLabelGlobalToc"
-     data-toggle="dropdown"
-     data-target="#"
-     href="index.html">Site <b class="caret"></b></a>
-  <ul class="dropdown-menu globaltoc"
-      role="menu"
-      aria-labelledby="dLabelGlobalToc"><p class="caption"><span class="caption-text">Contents:</span></p>
-<ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Expression Function</a></li>
-<li class="toctree-l1"><a class="reference internal" href="application.html">Companion Application</a></li>
-</ul>
-</ul>
-</li>
-              
-                <li class="dropdown">
-  <a role="button"
-     id="dLabelLocalToc"
-     data-toggle="dropdown"
-     data-target="#"
-     href="#">Page <b class="caret"></b></a>
-  <ul class="dropdown-menu localtoc"
-      role="menu"
-      aria-labelledby="dLabelLocalToc"><ul>
-<li><a class="reference internal" href="#">Expression Function</a></li>
-</ul>
-</ul>
-</li>
-              
-            
-            
-              
-                
-  <li>
-    <a href="introduction.html" title="Previous Chapter: Introduction"><span class="glyphicon glyphicon-chevron-left visible-sm"></span><span class="hidden-sm hidden-tablet">&laquo; Introduction</span>
-    </a>
-  </li>
-  <li>
-    <a href="application.html" title="Next Chapter: Companion Application"><span class="glyphicon glyphicon-chevron-right visible-sm"></span><span class="hidden-sm hidden-tablet">Companion Application &raquo;</span>
-    </a>
-  </li>
-              
-            
-            
-            
-            
-              <li class="hidden-sm">
-<div id="sourcelink">
-  <a href="_sources/expression.rst.txt"
-     rel="nofollow">Source</a>
-</div></li>
-            
-          </ul>
-
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
           
-            
-<form class="navbar-form navbar-right" action="search.html" method="get">
- <div class="form-group">
-  <input type="text" name="q" class="form-control" placeholder="Search" />
- </div>
-  <input type="hidden" name="check_keywords" value="yes" />
-  <input type="hidden" name="area" value="default" />
-</form>
-          
-        </div>
-    </div>
-  </div>
 
-<div class="container">
-  <div class="row">
-    <div class="body col-md-12 content" role="main">
-      
+          <div class="body" role="main">
+            
   <div class="section" id="expression-function">
 <h1>Expression Function<a class="headerlink" href="#expression-function" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="lineargradientimage">
+<h2><code class="docutils literal notranslate"><span class="pre">linearGradientImage()</span></code><a class="headerlink" href="#lineargradientimage" title="Permalink to this headline">¶</a></h2>
+<p>This is the expression function that generates the PNG gradient image. It allows specification of many values to produce gradients that match your color schemes.</p>
+<p><strong>Returns</strong>: <code class="docutils literal notranslate"><span class="pre">Document</span></code></p>
+<p><strong>hexColors</strong> <em>(List of Text String)</em>: The list of colors in the gradient, as hexadecimal, e.g. <code class="docutils literal notranslate"><span class="pre">{</span> <span class="pre">&quot;#FFAA00&quot;,</span> <span class="pre">&quot;#EE5500&quot;,</span> <span class="pre">&quot;#EEEEEE&quot;</span> <span class="pre">}</span></code></p>
+<p><strong>distribution</strong> <em>(List of Number (Floating Point))</em>: The distribution positions of the colors in the gradient change as a percentage (value between 0 and 1), e.g. <code class="docutils literal notranslate"><span class="pre">{</span> <span class="pre">0.0,</span> <span class="pre">0.2,</span> <span class="pre">1.0</span> <span class="pre">}</span></code></p>
+<p><strong>width</strong> <em>(Number (Integer))</em>: The width of the image in pixels</p>
+<p><strong>height</strong> <em>(Number (Integer))</em>: The height of the image in pixels</p>
+<p><strong>horizontal</strong> <em>(Boolean)</em>: If true, the gradient will be oriented horizontally instead of vertically</p>
+<p><strong>targetFolder</strong> <em>(Folder)</em>: The Appian <code class="docutils literal notranslate"><span class="pre">Folder</span></code> to store (and cache) the image</p>
+<div class="section" id="example">
+<h3>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>a!imageField(
+  label: &quot;Result&quot;,
+  labelPosition: &quot;ABOVE&quot;,
+  images: {
+    a!documentImage(
+      document: linearGradientImage(
+        hexColors: { &quot;#cc3300&quot;, &quot;#ff9966&quot;, &quot;#ffcc00&quot;, &quot;#99cc33&quot;, &quot;#339900&quot; },
+        distribution: { 0, 0.25, 0.5, 0.75, 1 },
+        width: 500,
+        height: 200,
+        horizontal: false,
+        targetFolder: cons!GRAD_FOLDER_DEFAULT,
+      )
+    )
+  },
+  size: &quot;LARGE&quot;,
+  isThumbnail: false,
+  style: &quot;STANDARD&quot;
+)
+</pre></div>
+</div>
+<p>This would produce an image named:
+<code class="docutils literal notranslate"><span class="pre">linear_cc3300_ff9966_ffcc00_99cc33_339900_0.0_0.25_0.5_0.75_1.0_500_200_vertical.png</span></code></p>
+<img alt="Expression example gradient" src="_images/expression_example_result.png" />
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The filename is a concatenation of the arguments to the expression function, producing a consistently named image for the same arguments. This is how the plugin finds and returns existing images instead of regenerating them each time. As such, if you move, rename, or delete the Document, the plugin will regenerate the image using this long filename again.</p>
+</div>
+</div>
+</div>
 </div>
 
 
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Gradient Image Generator</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Expression Function</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#lineargradientimage"><code class="docutils literal notranslate"><span class="pre">linearGradientImage()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="application.html">Companion Application</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="introduction.html" title="previous chapter">Introduction</a></li>
+      <li>Next: <a href="application.html" title="next chapter">Companion Application</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
     </div>
-      
-  </div>
 </div>
-<footer class="footer">
-  <div class="container">
-    <p class="pull-right">
-      <a href="#">Back to top</a>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Rob Munroe / Appian Corporation.
       
-    </p>
-    <p>
-        &copy; Copyright 2020, Rob Munroe / Appian Corporation.<br/>
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.2.1.<br/>
-    </p>
-  </div>
-</footer>
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.2.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/expression.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
   </body>
 </html>
