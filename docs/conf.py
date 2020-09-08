@@ -14,12 +14,14 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
+import sphinx_bootstrap_theme
+
 
 # -- Project information -----------------------------------------------------
 
-project = 'appian-gradientImageGenerator'
-copyright = '2020, Rob Munroe'
-author = 'Rob Munroe'
+project = 'Gradient Image Generator'
+copyright = '2020, Rob Munroe / Appian Corporation'
+author = 'Rob Munroe, Principal Solutions Architect, Appian Corporation'
 
 # The full version, including alpha/beta/rc tags
 release = '1.0'
@@ -44,12 +46,13 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 # -- Options for HTML output -------------------------------------------------
 
-# The theme to use for HTML and HTML Help pages.  See the documentation for
-# a list of builtin themes.
-#
-html_theme = 'alabaster'
+html_theme = 'bootstrap'
+html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
+
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+master_doc = 'index'
