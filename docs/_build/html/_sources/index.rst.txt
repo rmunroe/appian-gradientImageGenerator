@@ -21,9 +21,9 @@ This plugin provides an Expression Function called ``linearGradientImage()`` for
    changelog
 
 
-Indices and tables
-==================
+.. Indices and tables
+.. ==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. * :ref:`genindex`
+.. * :ref:`modindex`
+.. * :ref:`search`

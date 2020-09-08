@@ -13,7 +13,6 @@ Note that this companion application requires the `Color Picker Component <https
 
 .. image:: images/billboard_designer_top.png
    :alt: Billboard example
-   :target: images/billboard_designer_top.png
 
 
 Performance
